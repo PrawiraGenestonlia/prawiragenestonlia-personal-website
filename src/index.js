@@ -12,8 +12,7 @@ const hist = createBrowserHistory();
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      <Route path="/home" component={Home} />
-      <Redirect from="/" to="/home" />
+      <Route exact path="/" component={Home} />
     </Switch>
   </Router>,
   document.getElementById("root")
@@ -24,7 +23,15 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-
+// ReactDOM.render(
+//   <Router history={hist}>
+//     <Switch>
+//       <Route exact path="/home" component={Home} />
+//       <Redirect from="/" to="/home" />
+//     </Switch>
+//   </Router>,
+//   document.getElementById("root")
+// );  
 
 
 
