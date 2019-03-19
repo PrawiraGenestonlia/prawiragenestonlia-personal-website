@@ -31,7 +31,7 @@ class Header extends Component {
                   <li><a className="smoothscroll" href="#about">About</a></li>
                   <li><a className="smoothscroll" href="#resume">Resume</a></li>
                   <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-                  <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+                  <li><a className="smoothscroll" href="#testimonials">Inspiration</a></li>
                   <li><a className="smoothscroll" href="#contact">Contact</a></li>
                </ul>
             </nav>
@@ -51,6 +51,10 @@ class Header extends Component {
             <p className="scrolldown">
                <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
             </p>
+            <div id="large-header" class="large-header">
+         <canvas id="demo-canvas"></canvas>
+         </div>
+
          </header>
          {/* <canvas id="demo-canvas"></canvas> */}
          </div>

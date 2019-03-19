@@ -53,6 +53,13 @@ class App extends Component {
         <Testimonials data={this.state.resumeData.testimonials}/>
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
+        <div>
+          <h1>Test</h1>
+          <div id="large-header" class="large-header">
+         <canvas id="demo-canvas"></canvas>
+
+      </div>
+        </div>
       </div>
     );
   }
