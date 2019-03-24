@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && surge /Users/prawira/projects/prawiragenestonlia.com/build/ prawiragenestonlia.com"
+    "deploysurge": "npm run build && surge /Users/prawira/projects/prawiragenestonlia.com/build/ prawiragenestonlia.com"
   },
   "eslintConfig": {
     "extends": "react-app"
