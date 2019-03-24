@@ -57,7 +57,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Part of me...",
     "education":[
       {
         "school":"Nanyang Technological University",
@@ -135,7 +135,7 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"In this world, there is nothing cannot be done. It is whether you want it badly enough.",
+        "text":"In this world, there is nothing impossible to be done. It is whether you want it badly enough.",
         "user":"Prawira"
       }
     ]
