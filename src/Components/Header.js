@@ -23,7 +23,7 @@ class Header extends Component {
 
     return (
       <div>
-        <Particles params={ParticlesConfig} width='100%' height='93%' style={{ position: 'absolute', zIndex: '2' }} />
+        {/* <Particles params={ParticlesConfig} width='100%' height='93%' style={{ position: 'absolute', zIndex: '2' }} /> */}
 
         <header id="home">
           <nav id="nav-wrap">
